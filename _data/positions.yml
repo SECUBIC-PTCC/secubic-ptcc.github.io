@@ -1,0 +1,24 @@
+---
+
+researcher:
+  name: Researcher
+  
+postdoc:
+  name: Postdoc
+  
+phd:
+  name: PhD Student
+
+intern:
+  name: Intern
+
+friend:
+  name: Friend
+
+alumnus-permanent:
+  name: Former Researcher
+  
+alumnus-temporary:
+  name: Former fixed-term researcher
+  
+

@@ -1,0 +1,43 @@
+---
+
+- id: mmarcozz
+  firstname: Michaël
+  lastname: Marcozzi 
+  position: researcher
+  role: (Coordinator and local leader, CEA List)
+  www: "https://sites.google.com/view/michaelmarcozzi"
+
+- id: jymarion
+  firstname: Jean-Yves
+  lastname: Marion
+  position: researcher
+  role: (Local leader, LORIA)
+  www: "https://members.loria.fr/JYMarion"
+
+- id: gmenguy
+  firstname: Stefano
+  lastname : Zacchiroli 
+  position : researcher  
+  role: (Local leader, Telecom Paris)
+  www: "https://upsilon.cc/~zack"
+  
+# POSTDOCS
+
+#- id: nobody
+#  lastname: Contact us to join
+#  position: postdoc
+
+# PHD STUDENTS
+
+#- id: nobodyeither
+#  lastname: Contact us to join
+#  position: intern
+
+# INTERNS
+
+#- id: nobodyeither
+#  lastname: Contact us to join
+#  position: intern
+
+
+

@@ -1,0 +1,260 @@
+---
+---
+
+// 6. Import the rest of Bulma
+// $primary: #111111;
+
+@import "bulma.sass";
+@import "pygments.scss";
+
+html {
+  color: $grey-dark;
+  font-size: 14px;
+
+  @media (min-width: 800px) {
+    font-size: 16px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 18px;
+  }
+}
+
+// Select a bit larger default font
+body {
+    color: $grey-dark;
+    font-size: 1.1rem;
+
+  @media (min-width: 800px) {
+    font-size: 1.12rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.15rem;
+  }
+}
+
+a {
+    color : $grey-dark;
+    text-decoration: underline;
+}
+
+a#rss {
+    color : $primary;
+}
+
+section.binsec {
+    background-image: url("/assets/img/bin.jpg");
+    div.hero-head {
+        background-color: black;
+        opacity:0.85;
+    }
+    div.hero-body {
+        background-color: black;
+        opacity:0.85;
+    }
+}
+
+div.download {
+    margin-top: 10px;
+
+    &:hover {
+        color: black;
+    }
+
+    a.is_outlined {
+        &:hover {
+            color: black;
+        }
+
+        &:focus {
+            color: black;
+        }
+    }
+}
+
+a#download {
+    font-weight: 800;
+    text-decoration:none;
+    
+    &:hover {
+        color: black;
+    }
+}
+
+article.news-item {
+    h2 {
+        color: black;
+    }
+}
+
+div.home-post {
+    margin-top: 1rem;
+    border-bottom : 1px solid $primary;
+}
+
+span.lastname, span.date {
+    font-variant: small-caps;
+}
+
+span.date {
+    font-size: smaller;
+}
+
+div.hero-title {
+    padding-bottom: 100px;
+}
+
+#logo {
+    font-family: "Nimbus Sans L", "Fira Sans", sans-serif;
+    color: $primary;
+    font-size: 14rem;
+
+    // Magic:
+    @media (max-width: 1000px) {
+           font-size: 10rem;
+    }
+
+    // Magic:
+    @media (max-width: 800px) {
+           font-size: 8rem;
+    }
+
+    
+    // Magic:
+    @media (max-width: 400px) {
+           font-size: 6rem;
+    }
+}
+
+.is-active {
+    background-color: black;
+}
+
+.navbar-burger {
+    background-color: black;
+}
+
+
+.logo {
+    color: $primary;
+}
+
+
+nav {
+    font-variant: small-caps;
+}
+
+div.navbar-brand {
+    padding-right:4em;
+
+}
+
+a.navbar-item {
+    text-decoration: none;
+
+    span {
+        margin-left: 4px;
+    }
+}
+
+section.footer {
+    background-color : $black;
+}
+
+#nav-menu  a {
+    color : $primary;
+    font-weight: 800;
+    &:hover {
+        background-color: $primary;
+        color: $black;
+    }
+}
+
+.news-item a {
+    color : $primary;
+}
+
+.hero .title {
+    color : $primary;
+    font-variant: small-caps;
+}
+
+div.post  {
+    padding-top: 1em;
+    padding-bottom : 2em;
+}
+
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+.footer {
+    background : $black;
+    color: $primary;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px
+
+}
+
+
+p {
+   margin-top: 1em;
+}
+
+div.container {
+    pre {
+        margin-top: 1.5em;
+        background-color: $white-ter;
+        width: 70%;
+    }
+}
+
+a.button {
+    i {
+        margin-right: .3em;
+    }
+}
+
+
+    .overview {
+        background-color: $white-ter;
+    }
+
+section.post {
+    
+    h1 {
+        @extend .is-size-3;
+        margin-bottom: 2rem;
+    }
+    
+    h2 {
+        margin-top: 2rem;
+        color: $grey-dark;
+        @extend .is-size-4;
+        font-weight: 600;
+    }
+    
+    h3.topic {
+        color: $grey-dark;
+        font-weight: 600;
+    }
+}
+
+div.navbar-dropdown {
+    background-color: black;
+    border-top: black;
+}
+
+div.hero-head {
+    z-index: 1;
+}

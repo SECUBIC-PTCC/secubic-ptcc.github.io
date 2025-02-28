@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+<section class="hero is-bold binsec is-fullheight">
+  <div class="hero-head">
+    {% include header.html %}
+  </div>
+
+  <div class="hero-body">
+    <div class="container">
+
+      <div class="columns is-vcentered has-text-centered hero-title">
+        <div class="column is-unselectable">
+          <div>
+            <span id="logo">SECUBIC</span>
+          </div>
+          <div>
+            <h2 class="title">
+              SECUred BInary supply-Chain
+            </h2>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div id="about"></div>
+    <b>SECUBIC</b> is a research project funded by the <a href="https://anr.fr/en" target="_blank"> French Agency for Research</a> (<a href="https://www.economie.gouv.fr/france-2030" target="_blank">France 2030</a>) through the <a href="https://ptcc.fr" target="_blank"> PTCC</a> initiative operated by <a href="https://inria.fr/en" target="_blank"> INRIA</a>. SECUBIC is lead by <a href="https://list.cea.fr/en" target="_blank"> CEA List</a> and brings together world-class research teams from <a href="https://list.cea.fr/en" target="_blank"> CEA List</a>, <a href="https://www.loria.fr/en" target="_blank"> LORIA</a> and <a href="https://www.telecom-paris.fr/en/home" target="_blank"> Telecom Paris</a>. Its headquarters are at the <a href="https://campuscyber.fr" target="_blank"> Campus Cyber</a> cybersecurity hub in Paris, France.
+    <br>
+    <br>
+    <img src="/assets/img/logos.png" alt="Funders and partners"> 
+    <br>
+    <br>
+    <b>Summary</b>. Many everyday objects (like phones, routers, public transport vehicles, CCTV, etc.) are equipped with computer code in binary format ensuring their operation. At the same time, the reuse of off-the-shelf software components is a massive and widespread practice in computer program development. Therefore, software operating everyday objects may embed up to thousands of pre-existing software components, whose (open source) code was openly available on the Internet. These pre-existing components can implement various and potentially sensitive features, such as cryptography, data management or internet communication. Such a bloated software supply chain opens the door to specific attacks against the binaries included in everyday objects, such as exploiting known vulnerabilities or purposefully injecting vulnerabilities into pre-existing components.
+ <br>
+When the user of an everyday object wants to ensure that its operating binary is not vulnerable to such attacks, they must use generic vulnerability detection techniques on the entire binary code. This requires considerable effort and is highly likely to miss many of the vulnerabilities. By replacing these generic techniques with a new approach dedicated to finding vulnerabilities caused by the software supply chain, the SECUBIC project aims at increasing the detection capabilities of such vulnerabilities enough to enable their exhaustive neutralization (or exploitation, from an attacker’s point of view), in reasonable time and budget. The result of the project will be a set of software tools implementing this dedicated approach and an evaluation of their effectiveness, notably on binary code coming from industrial and institutional partners.
+    </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div id="people"></div><h1 class="title is-1">People</h1>
+    <hr/>
+    {% assign people_grp = site.data.team | group_by: 'position' %}
+    {% assign positions = site.data.positions %}
+
+    <div class="columns">
+    {% for g in people_grp %}
+    {% assign position = site.data.positions[g.name].name %}
+    <div class="column">
+      {% assign pos = position %}
+      {% if g.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h2 class="subtitle is-2">{{ pos }}</h2>
+
+      {% assign categories = g.items | group_by: 'is_past' %}
+
+      {% for c in categories %}
+      {% assign people = c.items | sort: "lastname" %}
+
+      <div class="content">
+      {% if c.name == "true" %}
+      <hr/> 
+      {% assign pos = position %}
+      {% if people.size > 1 %}
+      {% assign pos = position | append: "s" %}
+      {% endif %}
+      <h4 class="subtitle">Former {{ pos }}</h4>
+      {% endif %}
+      <ul>
+
+        {% for p in people %}
+        <li> 
+          <div>
+          {% if p.www %}
+          <a href="{{ p.www }}" target="_blank"> {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span></a> {% if p.role %} {{ p.role }} {% endif %}
+          {% else %}
+          {{ p.firstname }} <span class="lastname">{{ p.lastname }}</span> {% if p.role %} {{ p.role }} {% endif %}
+          {% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
+      {% endfor %}
+
+
+    </div>
+    {% endfor %}
+    </div>
+    
+    </div>
+
+  </div>
+</section>
