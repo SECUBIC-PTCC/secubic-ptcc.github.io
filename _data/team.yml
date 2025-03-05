@@ -14,12 +14,19 @@
   role: (Local leader, LORIA)
   www: "https://members.loria.fr/JYMarion"
 
-- id: gmenguy
+- id: szacchiroli
   firstname: Stefano
   lastname : Zacchiroli 
   position : researcher  
   role: (Local leader, Telecom Paris)
   www: "https://upsilon.cc/~zack"
+
+- id: sbardin
+  firstname: Sébastien
+  lastname : Bardin 
+  position : researcher  
+  role: (CEA List)
+  www: "http://sebastien.bardin.free.fr"
   
 # POSTDOCS
 
