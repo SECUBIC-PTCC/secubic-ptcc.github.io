@@ -27,6 +27,31 @@
   position : researcher  
   role: (CEA List)
   www: "http://sebastien.bardin.free.fr"
+
+- id: azalcman
+  firstname: Andy
+  lastname: Zalcman
+  position: researcher
+  role: (PhD Student, CEA)
+
+- id: vmatrat
+  firstname: Victor
+  lastname: Matrat
+  position: researcher
+  role: (PhD Student, LORIA)
+
+- id: gfarina
+  firstname: Giorgio  
+  lastname: Farina
+  position: researcher
+  role: (Postdoc, Telecom Paris)
+
+- id: tbenoit
+  firstname: Tristan  
+  lastname: Benoit
+  position: researcher
+  role: (Former postdoc, Telecom Paris)
+ 
   
 # POSTDOCS
 
@@ -45,6 +70,7 @@
 #- id: nobodyeither
 #  lastname: Contact us to join
 #  position: intern
+
 
 
 
