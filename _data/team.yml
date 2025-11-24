@@ -32,7 +32,7 @@
   firstname: Andy
   lastname: Zalcman
   position: researcher
-  role: (PhD Student, CEA)
+  role: (PhD Student, CEA List)
 
 - id: vmatrat
   firstname: Victor
@@ -70,6 +70,7 @@
 #- id: nobodyeither
 #  lastname: Contact us to join
 #  position: intern
+
 
 
 
