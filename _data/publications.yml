@@ -1,1 +1,20 @@
 ---
+- year: 2025
+  publications:
+        - title: "BLens: Contrastive Captioning of Binary Functions using Ensemble Embedding"
+          authors:
+            - name: Tristan Benoit
+            - name: Yunru Wang
+            - name: Moritz Dannehl
+            - name: Johannes Kinder
+          venue: 34th USENIX Security Symposium
+          venue-acronym: Usenix Security
+          ranking: A*
+          pdf: https://www.usenix.org/system/files/usenixsecurity25-benoit.pdf
+          talk-slides: https://www.usenix.org/system/files/sec25_slides_benoit.pdf
+          talk-video: https://www.youtube.com/watch?v=MEFKVmCmEvQ
+          artefact: "https://doi.org/10.5281/zenodo.14732394"
+          artifact-custom-image: "/assets/img/artifact_usenix2025.png"
+          artifact-custom-image-width: "245"
+          artifact-custom-image-height: "140"
+          bibtex: /assets/publications/bibtexs/2025-usenix.bib
