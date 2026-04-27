@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Postdoctoral Position (24 months) — Software Engineering and Cybersecurity — Université Paris-Saclay, CEA, List"
+title:  "Postdoc (24 months) — Software Engineering and Security — Université Paris-Saclay"
 supervisors: Michaël Marcozzi (Université Paris-Saclay - CEA List)
 categories: jobs open
 date: 2026-04-27
