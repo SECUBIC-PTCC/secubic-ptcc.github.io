@@ -1,6 +1,23 @@
 ---
 - year: 2026
   publications:
+        - title: "Not In My Git Yard: Catching Backdoors at Commit and Release Time"
+          authors:
+            - name: Dimitri Kokkonis
+            - name: Michaël Marcozzi
+            - name: Stefano Zacchiroli
+          venue: 41st International Conference on Automated Software Engineering
+          venue-acronym: ASE
+          ranking: A*
+          artefact: https://zenodo.org/records/19337349
+          easy-summary: nutshells/ase-26.html
+          pdf: /assets/publications/papers/2026-ase.pdf
+          bibtex: /assets/publications/bibtexs/2026-ase.bib
+          # TODO[Dimitri]: add slides when available
+          #talk-slides: /assets/publications/slides/2026-ase.pdf
+          artifact-available: true
+          artifact-evaluated-functional: true
+          artifact-evaluated-reusable: true
         - title: "AnBridge: Protecting On-device AI with Android Virtualization Framework"
           authors:
             - name: Giorgio Farina
