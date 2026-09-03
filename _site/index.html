@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="SECUBIC: SECUBIC">
+  <meta name="keywords" content="SECUBIC, binary software composition analysis, backdoors, 1-days">
+
+  <title>SECUBIC</title>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+  <script type="text/javascript" src="/assets/js/bs.js"></script>
+  <link rel="icon" type="image/png" href="/assets/img/small_logo.png" />
+
+  
+
+</head>
+
+  <body>
+
+    <section class="hero is-bold binsec is-fullheight">
+  <div class="hero-head">
+    <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="/assets/img/small_logo.png" /><![endif]-->
+<nav class="navbar is-black" role="navigation" aria-label="main navigation">
+  <div class="container">
+
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/assets/img/logo_turquoise.png" alt="SECUBIC: SECUred BInary supply-Chain" width="112" height="28">
+      </a>
+
+      <button class="button navbar-burger" data-target="nav-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="navbar-menu" id="nav-menu" >
+      <div class="navbar-start ">
+        <!-- <a class="navbar-item" href="/apiref/">
+         !--   API 
+         !-- 
+         !-- </a> -->
+        <!-- <a class="navbar-item" href="">
+         !--   Blog
+         !-- </a> -->
+
+       <a class="navbar-item" href="/#about">
+          <i class="far fa-question-circle"></i>
+          <span>About</span>
+        </a>
+          
+        <a class="navbar-item" href="/#people">
+          <i class="fas fa-users"></i>
+          <span>People</span>
+        </a>
+
+        <a class="navbar-item" href="/currentjobs">
+          <i class="fas fa-bell"></i>
+          <span>Jobs</span>
+        </a>
+
+	       <a class="navbar-item">
+         </a>
+                 
+        <a class="navbar-item" href="/publications">
+          <i class="fas fa-microscope"></i>
+          <span>Publications</span>
+        </a>
+
+        <a class="navbar-item" href="/achievements">
+          <i class="fas fa-tools"></i>
+          <span>Tools</span>
+        </a>
+
+         <a class="navbar-item">
+         </a>
+
+      </div>
+
+      <div class="navbar-end">
+      </div>
+    </div>
+    
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="hero-body">
+    <div class="container">
+
+      <div class="columns is-vcentered has-text-centered hero-title">
+        <div class="column is-unselectable">
+          <div>
+            <span id="logo">SECUBIC</span>
+          </div>
+          <div>
+            <h2 class="title">
+              SECUred BInary supply-Chain
+            </h2>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div id="about"></div>
+    <b>SECUBIC</b> is a research project funded by the <a href="https://anr.fr/en" target="_blank"> French Agency for Research</a> (<a href="https://www.economie.gouv.fr/france-2030" target="_blank">France 2030</a>) through the <a href="https://ptcc.fr" target="_blank"> PTCC</a> initiative operated by <a href="https://inria.fr/en" target="_blank"> INRIA</a>. SECUBIC is lead by <a href="https://list.cea.fr/en" target="_blank"> CEA List</a> and brings together world-class research teams from <a href="https://list.cea.fr/en" target="_blank"> CEA List</a>, <a href="https://www.loria.fr/en" target="_blank"> LORIA</a> and <a href="https://www.telecom-paris.fr/en/home" target="_blank"> Telecom Paris</a>. Its headquarters are at the <a href="https://campuscyber.fr" target="_blank"> Campus Cyber</a> cybersecurity hub in Paris, France.
+    <br>
+    <br>
+    <img src="/assets/img/logos.png" alt="Funders and partners"> 
+    <br>
+    <br>
+    <b>Summary</b>. Many everyday objects (like phones, routers, public transport vehicles, CCTV, etc.) are equipped with computer code in binary format ensuring their operation. At the same time, the reuse of off-the-shelf software components is a massive and widespread practice in computer program development. Therefore, software operating everyday objects may embed up to thousands of pre-existing software components, whose (open source) code was openly available on the Internet. These pre-existing components can implement various and potentially sensitive features, such as cryptography, data management or internet communication. Such a bloated software supply chain opens the door to specific attacks against the binaries included in everyday objects, such as exploiting known vulnerabilities or purposefully injecting vulnerabilities into pre-existing components.
+ <br>
+When the user of an everyday object wants to ensure that its operating binary is not vulnerable to such attacks, they must use generic vulnerability detection techniques on the entire binary code. This requires considerable effort and is highly likely to miss many of the vulnerabilities. By replacing these generic techniques with a new approach dedicated to finding vulnerabilities caused by the software supply chain, the SECUBIC project aims at increasing the detection capabilities of such vulnerabilities enough to enable their exhaustive neutralization (or exploitation, from an attacker’s point of view), in reasonable time and budget. The result of the project will be a set of software tools implementing this dedicated approach and an evaluation of their effectiveness, notably on binary code coming from industrial and institutional partners.
+    </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div id="people"></div><h1 class="title is-1">People</h1>
+    <hr/>
+    
+    
+
+    <div class="columns">
+    
+    
+    <div class="column">
+      
+      
+      <h2 class="subtitle is-2">Researchers</h2>
+
+      
+
+      
+      
+
+      <div class="content">
+      
+      <ul>
+
+        
+        <li> 
+          <div>
+          
+          <a href="http://sebastien.bardin.free.fr" target="_blank"> Sébastien <span class="lastname">Bardin</span></a>  (CEA List) 
+          
+          </div>
+        </li>
+        
+        <li> 
+          <div>
+          
+          Tristan <span class="lastname">Benoit</span>  (Former postdoc, Telecom Paris) 
+          
+          </div>
+        </li>
+        
+        <li> 
+          <div>
+          
+          Giorgio <span class="lastname">Farina</span>  (Postdoc, Telecom Paris) 
+          
+          </div>
+        </li>
+        
+        <li> 
+          <div>
+          
+          <a href="https://sites.google.com/view/michaelmarcozzi" target="_blank"> Michaël <span class="lastname">Marcozzi</span></a>  (Coordinator and local leader, CEA List) 
+          
+          </div>
+        </li>
+        
+        <li> 
+          <div>
+          
+          <a href="https://members.loria.fr/JYMarion" target="_blank"> Jean-Yves <span class="lastname">Marion</span></a>  (Local leader, LORIA) 
+          
+          </div>
+        </li>
+        
+        <li> 
+          <div>
+          
+          Victor <span class="lastname">Matrat</span>  (PhD Student, LORIA) 
+          
+          </div>
+        </li>
+        
+        <li> 
+          <div>
+          
+          <a href="https://upsilon.cc/~zack" target="_blank"> Stefano <span class="lastname">Zacchiroli</span></a>  (Local leader, Telecom Paris) 
+          
+          </div>
+        </li>
+        
+        <li> 
+          <div>
+          
+          Andy <span class="lastname">Zalcman</span>  (PhD Student, CEA List) 
+          
+          </div>
+        </li>
+        
+      </ul>
+      </div>
+      
+
+
+    </div>
+    
+    </div>
+    
+    </div>
+
+  </div>
+</section>
+
+
+    <footer class="footer">
+
+  <div class="container">
+  <div class="tile is-ancestor">
+    <div class="tile is-3">
+      <span class="smallcaps"><i class="fas fa-copyright"></i></span> SECUBIC
+    </div>
+  </div>
+  </div>
+</footer>
+
+  </body>
+</html>
+

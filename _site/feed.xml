@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-09-03T10:58:44+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SECUBIC</title><subtitle>This is the website of the SECUBIC project</subtitle><author><name>Michaël Marcozzi</name></author><entry><title type="html">Postdoc (24 months) — Software Engineering and Security — Université Paris-Saclay</title><link href="http://localhost:4000/jobs/open/2026/04/27/postdoc-supply-chain-binary-fuzzing.html" rel="alternate" type="text/html" title="Postdoc (24 months) — Software Engineering and Security — Université Paris-Saclay" /><published>2026-04-27T00:00:00+02:00</published><updated>2026-04-27T00:00:00+02:00</updated><id>http://localhost:4000/jobs/open/2026/04/27/postdoc-supply-chain-binary-fuzzing</id><content type="html" xml:base="http://localhost:4000/jobs/open/2026/04/27/postdoc-supply-chain-binary-fuzzing.html"><![CDATA[<p>The <strong>CEA List Institute</strong> at Université Paris‑Saclay—<strong>ranked 13th worldwide</strong> (Shanghai Ranking)—is seeking to recruit a <strong>postdoctoral researcher for a 24‑month position</strong> in software engineering and cybersecurity.</p>
+
+<p>The position is fully funded, hosted by the <a href="https://binsec.github.io">BINSEC research team</a>, and focused on advanced fuzzing techniques for binary software, targeting the detection of backdoors and other software supply‑chain attacks.</p>
+
+<p><strong>TITLE</strong> - Smarter fuzzing to prevent supply-chain attacks.</p>
+
+<p><strong>TOPIC</strong> - Modern IoT devices—such as home routers, CCTV systems, or embedded gateways—operate using binary firmware composed of thousands of reused software components, many of which originate from open‑source ecosystems. While this reuse accelerates development, it also introduces major supply‑chain security risks, including 1‑day vulnerabilities and stealthy backdoors (see, e.g., recent <a href="https://binsec.github.io/assets/publications/papers/2025-icse.pdf">ICSE’25 work</a>).</p>
+
+<p>The goal of this postdoctoral project is to design, conceptualize, and experimentally evaluate novel fuzzing‑based approaches to improve the detection of such vulnerabilities.</p>
+
+<p><strong>KEYWORDS</strong> - software supply-chain security, backdoors, fuzzing, code analysis</p>
+
+<p><strong>SUPERVISION</strong> - The postdoctoral researcher will be supervised by <a href="http://www.marcozzi.net">Dr. Michaël Marcozzi</a> and will join the BINSEC team, an internationally recognized group working on program analysis and software security.</p>
+
+<p>The project offers strong opportunities for collaboration, including with:</p>
+
+<ul>
+  <li><a href="http://sebastien.bardin.free.fr">Dr. Sébastien Bardin</a> (BINSEC, CEA);</li>
+  <li>Members of the <a href="https://www.softwareheritage.org">Software Heritage UNESCO initiative</a>, such as <a href="https://upsilon.cc/~zack">Prof. Stefano Zacchiroli</a>;</li>
+  <li>The <a href="https://lhs.loria.fr">High Security Lab at LORIA</a>, including <a href="https://members.loria.fr/JYMarion">Prof. Jean‑Yves Marion</a>;</li>
+</ul>
+
+<p>and several industrial partners.</p>
+
+<p><strong>HOSTING</strong> - The position is based within the <a href="https://goo.gl/maps/Swn77dLqrKQki7zt9">Paris‑Saclay research cluster</a>, one of Europe’s leading hubs for science, engineering, and innovation. The environment offers outstanding research infrastructure and close interactions with both academia and industry, while benefiting from the proximity of the Paris metropolitan area—one of the world’s most visited cities—at the heart of Western Europe.</p>
+
+<p><strong>To apply, please check out the <a href="https://secubic-ptcc.github.io/jobs-cea">detailed application procedure and job info</a></strong>.</p>
+
+<p><strong>When to apply</strong> - Apply as soon as possible! Applications will be reviewed on a rolling basis starting mid‑May 2026, until the position is filled.</p>]]></content><author><name>Michaël Marcozzi</name></author><category term="jobs" /><category term="open" /><summary type="html"><![CDATA[The CEA List Institute at Université Paris‑Saclay—ranked 13th worldwide (Shanghai Ranking)—is seeking to recruit a postdoctoral researcher for a 24‑month position in software engineering and cybersecurity.]]></summary></entry><entry><title type="html">Postdoc in Software Engineering and Open Source Security at Polytechnic Institute of Paris</title><link href="http://localhost:4000/jobs/open/2025/06/26/postdoc-secubic-swh.html" rel="alternate" type="text/html" title="Postdoc in Software Engineering and Open Source Security at Polytechnic Institute of Paris" /><published>2025-06-26T00:00:00+02:00</published><updated>2025-06-26T00:00:00+02:00</updated><id>http://localhost:4000/jobs/open/2025/06/26/postdoc-secubic-swh</id><content type="html" xml:base="http://localhost:4000/jobs/open/2025/06/26/postdoc-secubic-swh.html"><![CDATA[<p>Télécom Paris, engineering school member of the Polytechnic Institute of Paris,
+is hiring a postdoctoral researcher, for 30 months in the field(s) of software
+engineering and cybersecurity.</p>
+
+<p>Télécom Paris is participating in the research project <a href="https://secubic-ptcc.github.io">SECUBIC (SEcure BInary
+supply Chain)</a> to improve the security of binary executables that
+include open source components. As part of the SECUBIC project, the ACES team
+of Télécom Paris will develop techniques and tools that leverage <a href="https://www.softwareheritage.org/">Software
+Heritage</a>, the largest archive of source code in the world, as knowledge
+base about open source software to improve the state of the art of binary
+software composition analysis (SCA).</p>
+
+<p>See the complete <a href="https://institutminestelecom.recruitee.com/l/en/o/post-doctorante-ou-post-doctorant-en-genie-logiciel-et-cybersecurite-cdd-de-30-mois-2-5">job description</a> for additional details:
+<a href="https://institutminestelecom.recruitee.com/l/en/o/post-doctorante-ou-post-doctorant-en-genie-logiciel-et-cybersecurite-cdd-de-30-mois-2-5">English version</a>, <a href="https://institutminestelecom.recruitee.com/o/post-doctorante-ou-post-doctorant-en-genie-logiciel-et-cybersecurite-cdd-de-30-mois-2-5">French version</a>.</p>
+
+<p>Application deadline: 31 August 2025</p>
+
+<p>Contact: <a href="https://upsilon.cc/~zack">Stefano Zacchiroli</a>,
+<a href="mailto:stefano.zacchiroli@telecom-paris.fr">stefano.zacchiroli@telecom-paris.fr</a>.</p>]]></content><author><name>Michaël Marcozzi</name></author><category term="jobs" /><category term="open" /><summary type="html"><![CDATA[Télécom Paris, engineering school member of the Polytechnic Institute of Paris, is hiring a postdoctoral researcher, for 30 months in the field(s) of software engineering and cybersecurity.]]></summary></entry></feed>
